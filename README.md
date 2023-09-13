@@ -105,9 +105,9 @@ Browser
 
 ### Setup
 
-git clone https://github.com/Metaverse-Nabeel/portfolio_nextJS.git
+git clone https://github.com/Metaverse-Nabeel/portfolio_next_JS.git
 
-cd portfolio_nextJS
+cd portfolio_next_JS
 
 ### Install
 
