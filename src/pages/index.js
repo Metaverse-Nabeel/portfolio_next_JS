@@ -9,8 +9,8 @@ import Head from 'next/head'
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-red-600'>
-        <h1 className='text-2xl text-green-500'>Nabeel Portfolio</h1>
+      <main className='bg-black'>
+        <h1 className='text-2xl text-white'>Nabeel Portfolio</h1>
       </main>
     </>
   )
