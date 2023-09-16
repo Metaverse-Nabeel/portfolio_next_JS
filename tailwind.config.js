@@ -16,6 +16,12 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-mont)', ...fontFamily.sans],
       },
+      colors: {
+        dark: '#1B1B1B',
+        light: '#F5F5F5',
+        primary: '#B63E96',
+        primaryDark: '#58E6D9'
+      }
     },
   },
   plugins: [],
