@@ -5,6 +5,8 @@ import profilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
+import HireMe from "@/components/HireMe";
+import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 
 const Home = () => {
   return (
@@ -16,7 +18,7 @@ const Home = () => {
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
-            <div className="w-1/2">
+            <div className="w-1/2 mr-12">
               <Image
                 src={profilePic}
                 alt="NabeelDigital"
@@ -38,6 +40,10 @@ const Home = () => {
             </div>
           </div>
         </Layout>
+        <HireMe />
+        <div className="absolute right-8 bottom-8 inline-block w-24">
+          <Image src={lightBulb} alt="NabeelDigital" className="w-full h-auto"/>
+        </div>
       </main>
     </>
   );
