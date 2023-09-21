@@ -10,7 +10,7 @@ import project2 from "../../public/images/projects/MathMagicians_Project.jpg";
 import project3 from "../../public/images/projects/cypto_angels_Finance.jpg";
 import project4 from "../../public/images/projects/nike_shoes_eCommerce.jpg";
 import project5 from "../../public/images/projects/Pokodex_Project.jpg";
-import project6 from "../../public/images/projects/portfolio-cover-image.jpg";
+import project6 from "../../public/images/projects/HTML_CSS_JS_Portfolio.jpg";
 
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
   return (
