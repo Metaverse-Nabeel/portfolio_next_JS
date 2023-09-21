@@ -20,15 +20,15 @@ const MovingImage = ({title, img, link}) =>{
     const x = useMotionValue(0);
     const y = useMotionValue(0);
     const imgRef = useRef(null);
-    const handleMouse = (event) => {
+    function handleMouse (event){
         imgRef.current.style.display="inline-block";
-        x.set(0);
-        y.set(0);
-    } 
-    const handleMouseLeave = (event) => {
-              imgRef.current.style.display="none";
         x.set(event.pageX);
         y.set(-10);
+    } 
+    function handleMouseLeave (event) {
+        imgRef.current.style.display="none";
+        x.set(0);
+        y.set(0);
     } 
     return (
         <Link href={link} target="_blank" onMouseMove={handleMouse} onMouseLeave={handleMouseLeave}>
