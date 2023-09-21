@@ -6,7 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/LandRover_Featured.png";
-import project2 from "../../public/images/projects/MathMagicians_Project.jpg"
+import project2 from "../../public/images/projects/MathMagicians_Project.jpg";
+import project3 from "../../public/images/projects/cypto_angels_Finance.jpg";
+import project4 from "../../public/images/projects/nike_shoes_eCommerce.jpg";
+import project5 from "../../public/images/projects/Pokodex_Project.jpg";
+import project6 from "../../public/images/projects/portfolio-cover-image.jpg";
 
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
   return (
@@ -96,41 +100,41 @@ const projects = () => {
             <div className="col-span-6">
                 <Project
                 type="Project"
-                title="Math Magicians | Calculator & Quotes"
-                summary="Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote. It's built with ReactJS."
-                img={project2}
-                link="https://math-magicians-six.vercel.app/"
-                github="https://github.com/Metaverse-Nabeel/Math-Magicians"
+                title="Crypto Angels | Crypto Currency"
+                summary="Crypto Angels | Crypto Currencies API provides numeric data about crypto currencies. The webapp have several pages. This project was made with React JS."
+                img={project3}
+                link="https://crypto-angels.vercel.app/"
+                github="https://github.com/Metaverse-Nabeel/Stocks-Metrics"
               />
             </div>
             <div className="col-span-12">
                 <FeaturedProjects
                 type="Featured Project"
-                title="Land Rover | Car Booking Application"
-                summary="Land Rover: Redefining vehicle reservations with React JS & Rails. Effortless booking, mobile-friendly, real-time updates. Join us today!"
-                img={project1}
-                link="https://land-rover-e.netlify.app/"
-                github="https://github.com/VelzckC0D3/Land-Rover-E-Commerce"
+                title="Nike Shoes | E-Commerce Website"
+                summary="Nike Shoes | This is a ReactJS project with TailwindCSS to make a Nike landing page. It will contain all the features required for an online E-commerce store."
+                img={project4}
+                link="https://nike-one-ochre.vercel.app/"
+                github="https://github.com/Metaverse-Nabeel/nike"
               />
             </div>
             <div className="col-span-6">
                 <Project
                 type="Project"
-                title="Math Magicians | Calculator & Quotes"
-                summary="Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote. It's built with ReactJS."
-                img={project2}
-                link="https://math-magicians-six.vercel.app/"
-                github="https://github.com/Metaverse-Nabeel/Math-Magicians"
+                title="Pokodex | Pokemon's Wikipedia"
+                summary="Pokedex is a JavaScript single-page Application, Built using ES6 features and Webpack bundler, notably modules, and consumes the PokeAPI using JavaScript async/await."
+                img={project5}
+                link="https://javascript-capstone.netlify.app/"
+                github="https://github.com/hernandanielzamora/Javascript-Capstone"
               />
             </div>
             <div className="col-span-6">
                 <Project
                 type="Project"
-                title="Math Magicians | Calculator & Quotes"
-                summary="Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote. It's built with ReactJS."
-                img={project2}
-                link="https://math-magicians-six.vercel.app/"
-                github="https://github.com/Metaverse-Nabeel/Math-Magicians"
+                title="Portfolio | HTML, CSS, JS"
+                summary="Portfolio-Project is a personal portfolio for a Software Developer. The purpose of this portfolio is to showcase your skills and expertise. Displaying the projects completed and linking the live demos for the websites deployed. HTML, CSS, and JavaScript are used in this project."
+                img={project6}
+                link="https://metaverse-nabeel.github.io/Portfolio-Project/"
+                github="https://github.com/Metaverse-Nabeel/Portfolio-Project"
               />
             </div>
           </div>
