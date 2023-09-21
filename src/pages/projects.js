@@ -11,13 +11,17 @@ import project3 from "../../public/images/projects/cypto_angels_Finance.jpg";
 import project4 from "../../public/images/projects/nike_shoes_eCommerce.jpg";
 import project5 from "../../public/images/projects/Pokodex_Project.jpg";
 import project6 from "../../public/images/projects/HTML_CSS_JS_Portfolio.jpg";
+import { motion } from "framer-motion";
+
+const FramerImage = motion(Image);
+
 
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex items-center justify-between rounded-3xl rounded-br-2xl border border-solid border-dark bg-light shadow-2xl p-12 relative">
                   <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl'/>
       <Link href={link} target="_blank" className="w-1/2 cursor-pointer overflow-hidden rounded-lg">
-        <Image src={img} alt={title} className="w-full h-auto" />
+        <FramerImage src={img} alt={title} className="w-full h-auto" whileHover={{scale:1.05}} transition={{duration:0.2}} />
       </Link>
       <div className="w-1/2 flex flex-col items-start justify-between pl-6">
         <span className="text-primary font-medium text-xl">{type}</span>
@@ -42,7 +46,7 @@ const Project = ({ type, title, img, link, github }) => {
     <article className="w-full flex flex-col items-center justify-center rounded-2xl border boder-solid border-dark bg-light p-6 relative">
       <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl'/>
       <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden rounded-lg">
-        <Image src={img} alt={title} className="w-full h-auto" />
+        <FramerImage src={img} alt={title} className="w-full h-auto" whileHover={{scale:1.05}} transition={{duration:0.2}} />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">
         <span className="text-primary font-medium text-xl">{type}</span>
