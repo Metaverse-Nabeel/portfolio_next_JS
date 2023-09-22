@@ -7,23 +7,23 @@ const ListIcon = ({ reference }) => {
     offset: ["center end", "center center"],
   });
   return (
-    <figure className="absolute left-0 stroke-dark">
+    <figure className="absolute left-0 stroke-dark dark:stroke-light">
       <svg className="-rotate-90" width="75" height="75" viewBox="0 0 100 100">
         <circle
-          className="stroke-primary stroke-1 fill-none"
+          className="stroke-primary stroke-1 fill-none dark:stroke-primaryDark"
           cx="75"
           cy="50"
           r="20"
         />
         <motion.circle
           style={{ pathLength: scrollYProgress }}
-          className="stroke-[5px] fill-light"
+          className="stroke-[5px] fill-light dark:fill-dark"
           cx="75"
           cy="50"
           r="20"
         />
         <circle
-          className="animate-pulse  stroke-1 fill-primary"
+          className="animate-pulse  stroke-1 fill-primary dark:fill-primaryDark"
           cx="75"
           cy="50"
           r="10"

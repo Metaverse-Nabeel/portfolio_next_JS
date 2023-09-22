@@ -23,6 +23,8 @@ const Home = () => {
                 src={profilePic}
                 alt="NabeelDigital"
                 className="w-full h-auto"
+                priority
+                sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 50vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
@@ -34,8 +36,8 @@ const Home = () => {
                 web development.
               </p>
               <div className="flex items-center self-start mt-2 ">
-                <Link href="/Nabeel_Ahmed_Resume.pdf" target={"_blank"}className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark" download={true}>Resume <LinkArrow className={"w-6 ml-1"} /></Link>
-                <Link href="mailto:nabeelahmed3129@gmail.com" target={"_blank"} className="ml-4 text-lg font-medium capitalize text-dark underline underline-offset-2">Contact</Link>
+                <Link href="/Nabeel_Ahmed_Resume.pdf" target={"_blank"}className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:border-light" download={true}>Resume <LinkArrow className={"w-6 ml-1"} /></Link>
+                <Link href="mailto:nabeelahmed3129@gmail.com" target={"_blank"} className="ml-4 text-lg font-medium capitalize text-dark underline underline-offset-2 dark:text-light">Contact</Link>
               </div>
             </div>
           </div>
