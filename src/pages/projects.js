@@ -12,6 +12,7 @@ import project4 from "../../public/images/projects/nike_shoes_eCommerce.jpg";
 import project5 from "../../public/images/projects/Pokodex_Project.jpg";
 import project6 from "../../public/images/projects/HTML_CSS_JS_Portfolio.jpg";
 import { motion } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -78,6 +79,7 @@ const projects = () => {
           content="This is projects page for my portfolio website. It displays some of my projects highlighting my skills amd tech-stacks"
         />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16 lg:!text-7xl sm:!text-6xl sm:mb-8 xs:!text-4xl" />

@@ -13,6 +13,7 @@ import article6 from '../../public/images/articles/smooth scrolling in reactjs.p
 import article7 from '../../public/images/articles/What is higher order component in React.jpg';
 import article8 from '../../public/images/articles/What is Redux with easy explanation.png';
 import { easeInOut, motion, useMotionValue } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -78,6 +79,7 @@ const articles = () => {
           content="This is about me page for my portfolio website."
         />
       </Head>
+      <TransitionEffect/>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="Words Can Change The World!" className="mb-16 lg:!text-7xl sm:!text-6xl sm:mb-8 xs:!text-4xl" />
