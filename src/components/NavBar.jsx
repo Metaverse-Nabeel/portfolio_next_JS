@@ -64,7 +64,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light">
+    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
       <button
         className="flex-col justify-center items-center hidden lg:flex"
         onClick={handleClick}
@@ -196,6 +196,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-1"
+              toggle={handleClick}
             >
               <TwitterIcon />
             </motion.a>
@@ -205,6 +206,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 bg-light dark:bg-dark rounded-full sm:mx-1"
+              toggle={handleClick}
             >
               <GithubIcon />
             </motion.a>
@@ -214,6 +216,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 sm:mx-1"
+              toggle={handleClick}
             >
               <LinkedInIcon />
             </motion.a>
@@ -223,6 +226,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 bg-light rounded-full sm:mx-1"
+              toggle={handleClick}
             >
               <PinterestIcon />
             </motion.a>
@@ -232,6 +236,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 ml-3 sm:mx-1"
+              toggle={handleClick}
             >
               <DribbbleIcon />
             </motion.a>
