@@ -48,7 +48,8 @@ const Contact = () => {
               />
               <div className="min-w-[50vw] flex flex-col justify-between z-30 items-center rounded-lg backdrop-blur-md py-8 bg-dark/75 dark:bg-light/50 mt-4">
                 <form
-                  action="https://formsubmit.co/47096d9f8e8dd2de1103fcd59ad1fb6c"
+                  // action="https://formsubmit.co/47096d9f8e8dd2de1103fcd59ad1fb6c"
+                  action="https://formsubmit.co/nabeelahmed3129@gmail.com"
                   className="max-w-md"
                   method="POST"
                 >
