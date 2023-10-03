@@ -73,7 +73,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Nabeel Digital | Projects Page</title>
+        <title>Nabeel Digital | Projects </title>
         <meta
           name="description"
           content="This is projects page for my portfolio website. It displays some of my projects highlighting my skills amd tech-stacks"

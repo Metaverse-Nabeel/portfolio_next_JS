@@ -60,7 +60,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Nabeel Digital | About Page</title>
+        <title>Nabeel Digital | About </title>
         <meta
           name="description"
           content="This is about me page for my portfolio website."
