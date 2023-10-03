@@ -80,7 +80,7 @@ const articles = () => {
         />
       </Head>
       <TransitionEffect/>
-      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
+      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light mt-16">
         <Layout className="pt-16">
           <AnimatedText text="Words Can Change The World!" className="mb-16 lg:!text-7xl sm:!text-6xl sm:mb-8 xs:!text-4xl" />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:gap-y-16 md:grid-cols-1">
