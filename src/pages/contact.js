@@ -38,7 +38,7 @@ const Contact = () => {
         />
       </Head>
       <TransitionEffect />
-      <main className="flex items-center text-dark w-full min-h-screen">
+      <main className="flex items-center text-dark w-full min-h-screen mt-24">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-full flex flex-col items-center self-center text-center">
@@ -46,7 +46,7 @@ const Contact = () => {
                 text="Connect with Ease: Your Message, Our Priority!"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
-              <div className="min-w-[50vw] flex flex-col justify-between z-30 items-center rounded-lg backdrop-blur-md py-8 bg-dark/75 dark:bg-light/50">
+              <div className="min-w-[50vw] flex flex-col justify-between z-30 items-center rounded-lg backdrop-blur-md py-8 bg-dark/75 dark:bg-light/50 mt-4">
                 <form
                   action="https://formsubmit.co/47096d9f8e8dd2de1103fcd59ad1fb6c"
                   className="max-w-md"

@@ -17,7 +17,7 @@ const Home = () => {
         <meta name="description" content="This is the home page for the Nabeel Digital Portfolio website" />
       </Head>
       <TransitionEffect />
-      <main className="flex items-center text-dark w-full min-h-screen">
+      <main className="flex items-center text-dark w-full min-h-screen mt-24 pt-16">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 mr-12 md:w-full">
