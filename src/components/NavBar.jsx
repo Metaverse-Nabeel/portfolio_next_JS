@@ -88,10 +88,11 @@ const NavBar = () => {
 
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
-          <CustomLink href="/" title="Home" className="mr-4" />
-          <CustomLink href="/about" title="About" className="mx-4" />
-          <CustomLink href="/projects" title="Projects" className="mr-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          <CustomLink href="/" title="Home" className="mx-2" />
+          <CustomLink href="/about" title="About" className="mx-2" />
+          <CustomLink href="/projects" title="Projects" className="mx-2" />
+          <CustomLink href="/articles" title="Articles" className="mx-2" />
+          <CustomLink href="/contact" title="Contact" className="mx-2" />
         </nav>
         <nav className="flex items-center justify-center flex-wrap ">
           <motion.a
@@ -185,6 +186,12 @@ const NavBar = () => {
             <MobileLink
               href="/articles"
               title="Articles"
+              className=""
+              toggle={handleClick}
+            />
+            <MobileLink
+              href="/contact"
+              title="Contact"
               className=""
               toggle={handleClick}
             />
