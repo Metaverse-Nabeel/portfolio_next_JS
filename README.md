@@ -1,10 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h2><b>Portfolio</b></h2>
+  <h2><b>Portfolio Website</b></h2>
 </div>
-
-<h4 align="center"><b>Readme</b></h4>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -80,14 +78,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://nabeel-digital.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Project Presentation -->
 ## Project Presentation <a name="project-presentation"></a>
 
-- [Video Demo]()
+- [Video Demo](https://nabeel-digital.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
