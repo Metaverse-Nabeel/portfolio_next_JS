@@ -124,7 +124,7 @@ const about = () => {
                   <p className="inline-block text-7xl font-bold">
                     <AnimateNumbers value={value} />+
                   </p>
-                  <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
+                  <h2 className="text-xl text-end font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                     {name}
                   </h2>
                 </div>
