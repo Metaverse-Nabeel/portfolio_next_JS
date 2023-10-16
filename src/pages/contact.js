@@ -76,7 +76,8 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mb-4">
-                    <textarea
+                    <input
+                      type="text"
                       name="message"
                       placeholder="Message"
                       value={formData.message}
