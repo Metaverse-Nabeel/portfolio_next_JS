@@ -461,3 +461,15 @@ export const LinkArrow = ({ className, ...rest }) => (
     />
   </svg>
 );
+
+export const FiverrIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={500}
+    height={500}
+    viewBox="0 0 50 50"
+    {...props}
+  >
+    <path d="M25 2C12.32 2 2 12.32 2 25s10.32 23 23 23 23-10.32 23-23S37.68 2 25 2zm9 34h-6V25h-4v11h-6V25h-4v-6h4.04c.37-4.96 3.54-8 8.46-8h2.53v6H26.5c-.92 0-2.14 0-2.43 2H34v17z" />
+  </svg>
+);
