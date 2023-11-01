@@ -18,7 +18,7 @@ const Footer = () => {
             className="underline underline-offset-2"
             target={"_blank"}
           >
-            NabeelDigital
+            Nabeel Ahmed
           </Link>
         </div>
         <Link
